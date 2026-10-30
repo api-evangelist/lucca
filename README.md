@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lucca is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.lucca.fr
+Lucca provides cloud‑based human resources (HR) and administrative software solutions, offering modules for payroll, talent management, time tracking, expense management, and employee benefits. Their platform integrates with over 300 third‑party tools, supports AI‑driven HR insights, and serves enterprises across Europe and beyond. Lucca’s mission is to simplify HR processes, improve compliance, and enhance employee experience through a unified, user‑friendly SaaS suite.
+
+**Areas:** Company · Human Resources · Software-as-a-Service · Payroll · Talent Management
+
+## Lucca on APIs.io
+
+Everything profiled for Lucca is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lucca/](https://apis.io/providers/lucca/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Lucca Employee Attributes API](https://apis.io/apis/lucca/lucca-employee-attributes-api/) — Employee-Attributes.
+- [Lucca Employee Job Qualifications API](https://apis.io/apis/lucca/lucca-employee-job-qualifications-api/) — Job qualifications & professions.
+- [Lucca Employee Occupation Categories API](https://apis.io/apis/lucca/lucca-employee-occupation-categories-api/) — Employee occupations categories.
+- [Lucca Employees API](https://apis.io/apis/lucca/lucca-employees-api/) — Employees.
+- [Lucca Employments API](https://apis.io/apis/lucca/lucca-employments-api/) — Employments & job-positions.
+- [Lucca Events API](https://apis.io/apis/lucca/lucca-events-api/) — Major resources of the Lucca API are subject to events, which means every time their state changes (creation, update, deletion), an event is fired. These…
+- [Lucca Files API](https://apis.io/apis/lucca/lucca-files-api/) — Files.
+- [Lucca Organization API](https://apis.io/apis/lucca/lucca-organization-api/) — Organization.
+- [Lucca Taxonomies API](https://apis.io/apis/lucca/lucca-taxonomies-api/) — Taxonomies & taxonomy-labels.
+- [Lucca Webhooks API](https://apis.io/apis/lucca/lucca-webhooks-api/) — Webhooks.
+- [Lucca Working Time Arrangements API](https://apis.io/apis/lucca/lucca-working-time-arrangements-api/) — working-time-arrangements
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lucca Agentic Access](https://apis.io/agentic-access/lucca/lucca-agentic-access/)
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [department](https://apis.io/schemas/lucca/lucca-department-update/)
+- [employee-attribute-definition](https://apis.io/schemas/lucca/lucca-employee-attribute-definition-create/)
+- [employee.create](https://apis.io/schemas/lucca/lucca-employee-create/)
+- [employment](https://apis.io/schemas/lucca/lucca-employment-create/)
+- [File](https://apis.io/schemas/lucca/lucca-file/)
+- [job-position](https://apis.io/schemas/lucca/lucca-job-position-create/)
+- [job-position](https://apis.io/schemas/lucca/lucca-job-position-update/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lucca Context](https://apis.io/jsonld/lucca/lucca-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lucca API Rules](https://apis.io/rules/lucca/lucca-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lucca Authentication](https://apis.io/security/lucca/lucca-authentication/)
+- [Lucca Domain Security](https://apis.io/security/lucca/lucca-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Lucca Scopes](https://apis.io/scopes/lucca/lucca-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lucca.fr)
+- [Documentation](https://developers.lucca.fr/)
+- [Getting started](https://developers.luccasoftware.com/documentation/get-started/quickstart)
+- [API reference](https://developers.luccasoftware.com/llms.txt)
+- [Status](https://status.lucca.fr/)
+
+## API Evangelist rating
+
+**Kin Score 47.5** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 67.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 51.8 |
+| Access clarity | 13.2 |
+
+**Agent readiness 36.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 26.5** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lucca/](https://apis.io/providers/lucca/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lucca: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lucca/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
